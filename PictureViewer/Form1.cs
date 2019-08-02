@@ -16,5 +16,33 @@ namespace PictureViewer
         {
             InitializeComponent();
         }
+
+        private void showButton_Click(object sender, EventArgs e)
+        {
+            if (openFileDialog1.ShowDialog() == DialogResult.OK)
+            {
+                pictureBox.Load(openFileDialog1.FileName);
+            }
+        }
+
+        private void clearButton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void backgroundButton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void closeButton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void checkBox_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
