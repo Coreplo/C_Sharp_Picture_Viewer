@@ -11,6 +11,11 @@ namespace PictureViewer
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
+        /// 
+        ///punto 8 - fatto
+        ///procedere al punto 9
+        ///https://docs.microsoft.com/it-it/visualstudio/ide/step-9-review-comment-and-test-your-code?view=vs-2019
+
         [STAThread]
         static void Main()
         {
